@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navlogo h1{
+    color: green;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks ul li{
+    list-style: none;
+}
+
+.navlinks ul{
+    display: flex;
+    gap: 30px;
+}
+.navsearch{
+    position: relative;
+    width: 300px;
+}
+
+.navsearch i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.navsearch input{
+    height: 100%;
+    width: 220px;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginbtn{
+    height: 40px;
+    width: 110px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
